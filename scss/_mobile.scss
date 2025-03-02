@@ -1,0 +1,125 @@
+@media only screen and (max-width: 768px) 
+{
+#header-home 
+{
+  height: 100%;
+  #showcase 
+  {
+    img 
+    {
+      display: none;
+    }
+  }
+}
+
+}
+
+@media only screen and (max-width: 500px)
+{
+  div.showcase
+  {
+    position: static;
+    top: 0;
+    height: unset;
+  }
+
+  div.showcase .container
+  {
+    position: static;
+    background: unset;
+    top: 0;
+    width: 100%;
+    height: unset;
+    flex-direction: row;
+    gap: 2rem;
+    padding: 0;
+  }
+}
+
+@media(min-width: 501px) and (max-width: 768px)
+{
+  div.showcase
+  {
+    position: static;
+    top: 0;
+    height: unset;
+  }
+
+  div.showcase .container
+  {
+    position: static;
+    background: unset;
+    top: 0;
+    width: 100%;
+    height: unset;
+    flex-direction: row;
+    gap: 2rem;
+    padding: 0;
+  }
+}
+
+@media(min-width: 769px) and (max-width: 1200px)
+{
+  div.showcase
+  {
+    position: static;
+    top: 0;
+    height: unset;
+  }
+
+  div.showcase .container
+  {
+    position: static;
+    background: unset;
+    top: 0;
+    width: 100%;
+    height: unset;
+    flex-direction: row;
+    gap: 2rem;
+    padding: 0;
+  }
+}
+
+@media(min-width: 1201px)
+{
+  div.showcase
+  {
+    position: static;
+    top: 0;
+    height: unset;
+  }
+
+  div.showcase .container
+  {
+    position: static;
+    background: unset;
+    top: 0;
+    width: 100%;
+    height: unset;
+    flex-direction: row;
+    gap: 2rem;
+    padding: 0;
+  }
+}
+
+@media(max-height: 500px)
+{
+  div.showcase
+  {
+    position: static;
+    top: 0;
+    height: unset;
+  }
+
+  div.showcase .container
+  {
+    position: static;
+    background: unset;
+    top: 0;
+    width: 100%;
+    height: unset;
+    flex-direction: row;
+    gap: 2rem;
+    padding: 0;
+  }
+}
